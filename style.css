@@ -301,30 +301,6 @@ header > img {
     justify-content: normal;
     z-index: 2;
   }
-  .m-error {
-    background-color: rgba(237, 133, 127, 0.9);
-	margin-left: 200%;
-	transition: transform 2s;
-	transition-delay: 0s;
-	transform: translateX(-200%);
-}
-
-.m-success {
-    background-color: rgba(114, 245, 157, 0.9);
-	margin-left: 200%;
-	transition: transform 2s;
-	transition-delay: 2s;
-	transform: translateX(-200%);
-}
-
-.m-warning {
-    background-color: rgba(250, 169, 68, 0.9);
-	margin-left: 200%;
-	transition: transform 2s;
-	transition-delay: 4s;
-	transform: translateX(-200%);
-}
-  
 
 .content {
     overflow: auto;    
@@ -371,16 +347,28 @@ header > img {
 
 .m-error {
     background-color: rgba(237, 133, 127, 0.9);
+	margin-bottom: 10%;
+	transition: transform 0s;
+	transition-delay: 1s;
+	transform: translateY(-120%);
 }
 
 .m-success {
     background-color: rgba(114, 245, 157, 0.9);
+	margin-bottom: 10%;
+	transition: transform 0s;
+	transition-delay: 1s;
+	transform: translateY(-170%);
 }
 
 .m-warning {
     background-color: rgba(250, 169, 68, 0.9);
+	margin-bottom: -50%;
+	transition: transform 0s;
+	transition-delay: 1s;
+	transform: translateY(-170%);
 }
-
+  
 .m-error::before {
     content: "\f06a";
 }
