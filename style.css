@@ -187,7 +187,7 @@ header > img {
     cursor: pointer;
     width: 32px;
     height: 32px;
-    margin: 0 10px;
+    margin: 5px 10px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -301,6 +301,29 @@ header > img {
     justify-content: normal;
     z-index: 2;
   }
+  .m-error {
+    background-color: rgba(237, 133, 127, 0.9);
+	margin-left: 200%;
+	transition: transform 2s;
+	transition-delay: 0s;
+	transform: translateX(-200%);
+}
+
+.m-success {
+    background-color: rgba(114, 245, 157, 0.9);
+	margin-left: 200%;
+	transition: transform 2s;
+	transition-delay: 2s;
+	transform: translateX(-200%);
+}
+
+.m-warning {
+    background-color: rgba(250, 169, 68, 0.9);
+	margin-left: 200%;
+	transition: transform 2s;
+	transition-delay: 4s;
+	transform: translateX(-200%);
+}
   
 
 .content {
